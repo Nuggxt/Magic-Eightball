@@ -15,7 +15,6 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    border: 1px solid red;
     max-width: 600px;
     margin: auto;
 }
@@ -57,9 +56,8 @@ input {
 }
 
 button {
-    width: 150px;
+    width: 250px;
     height: 50px;
-    border-radius: 50px;
     font-size: 1.2em;
 }
 
