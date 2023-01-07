@@ -8,3 +8,45 @@ body {
     background-color: rgb(36, 36, 36);
     color: azure;
 }
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: auto;
+}
+
+.title {
+    margin: 10px;
+    font-size: 2em;
+}
+
+.desc {
+    margin: 10px;
+    text-decoration: underline;
+    font-size: 1.2em;
+}
+
+.output {
+    margin: 10px;
+    border: 2px solid azure;
+    width: 250px;
+    height: 75px;
+    margin: 25px;
+box-shadow: inset 0 0px 10px azure;
+}
+
+button {
+    width: 100px;
+    height: 35px;
+    margin: 25px;
+    border: none;
+    border-radius: 15px;
+}
+
+input {
+    width: 200px;
+    height: 35px;
+}

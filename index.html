@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -17,14 +18,14 @@
             <h1>Harsh 8-ball</h1>
         </div>
         <div class="desc">
-            <p>Meet the harsh 8-ball. The only 8-ball to give you the harsh truth about the questions you need answered.</p>
+            <p>You ask, I answer...</p>
         </div>
-        <div class="output" id="xLabel"></div>
+        <div class="output" id="answer"></div>
         <div class="input">
-            <input type="text" name="question" id="yLabel" placeholder="Write question">
+            <input type="text" name="question" id="userQuestion" placeholder="Write question" required>
         </div>
         <div class="button">
-            <button id="askButton" onclick="askButton()">Ask</button>
+            <button id="askButton" onclick="ask()">Just ask</button>
         </div>
         <script src="index.js"></script>
 </body>
