@@ -46,6 +46,10 @@ button {
     border-radius: 15px;
 }
 
+button:active {
+    transform: scale(.97);
+}
+
 input {
     width: 200px;
     height: 35px;
