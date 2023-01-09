@@ -31,8 +31,9 @@ body {
 
 .output {
     margin: 10px;
-    border: 2px solid azure;
-    width: 250px;
+    border: 1px solid azure;
+    border-radius: 50px;
+    width: 400px;
     height: 75px;
     margin: 25px;
 }
@@ -50,8 +51,10 @@ button:active {
 }
 
 input {
-    width: 200px;
+    width: 300px;
     height: 35px;
+    border-radius: 50px;
+    text-align: center;
 }
 
 #answer {
