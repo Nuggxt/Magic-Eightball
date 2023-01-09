@@ -21,16 +21,15 @@ body {
 .title {
     margin: 10px;
     font-size: 2em;
+    text-decoration: underline;
 }
 
 .desc {
     margin: 10px;
-    text-decoration: underline;
     font-size: 1.2em;
 }
 
 .output {
-    margin: 10px;
     border: 1px solid azure;
     border-radius: 50px;
     width: 400px;
@@ -41,7 +40,6 @@ body {
 button {
     width: 100px;
     height: 35px;
-    margin: 25px;
     border: none;
     border-radius: 15px;
 }

@@ -1,8 +1,8 @@
 let eightBall = "";
 let userQuestion = "";
 
-let askButton = function () { // Creates the function for the butoton click to activate.
-    randomNumber = Math.floor(Math.random() * 10) // Set the random number generation inside the randomNumber variable.
+let askButton = function () {
+    randomNumber = Math.floor(Math.random() * 10)
     if (randomNumber === 0) {
         eightBall = "No fucking shot";
     } else if (randomNumber === 1) {
@@ -24,6 +24,6 @@ let askButton = function () { // Creates the function for the butoton click to a
     } else if (randomNumber === 9) {
         eightBall = "Deal with it";
     }
-    document.getElementById("answer").innerHTML = eightBall; // Displays the answer inside of the div for answers
+    document.getElementById("answer").innerHTML = eightBall;
 };
-// Try to recreate the if... else  by doing it with a switch statement
+
