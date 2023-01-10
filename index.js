@@ -1,14 +1,14 @@
 let eightBall = "";
-let userQuestion = "";
+const userName = prompt("What is your name?"); // Asks for users name in a prompt. Will change later to where there is no prompt and user just types name on the page.
 
-let askButton = function () {
-    randomNumber = Math.floor(Math.random() * 10)
+const askButton = function () {
+    randomNumber = Math.floor(Math.random() * 10) // Random number gen.
     if (randomNumber === 0) {
         eightBall = "No fucking shot";
     } else if (randomNumber === 1) {
         eightBall = "Ask again";
     } else if (randomNumber === 2) {
-        eightBall = "Don\’t think, it might sprain your brain";
+        eightBall = "Don\’t think, you might sprain your brain";
     } else if (randomNumber === 3) {
         eightBall = "You are useless";
     } else if (randomNumber === 4) {
@@ -24,6 +24,5 @@ let askButton = function () {
     } else if (randomNumber === 9) {
         eightBall = "Deal with it";
     }
-    document.getElementById("answer").innerHTML = eightBall;
+    document.getElementById("answer").innerHTML = eightBall + userName;
 };
-
